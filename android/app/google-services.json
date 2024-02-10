@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "824545980680",
+    "firebase_url": "https://ecole229-6c52e-default-rtdb.firebaseio.com",
+    "project_id": "ecole229-6c52e",
+    "storage_bucket": "ecole229-6c52e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824545980680:android:d6cdf1b6072b6323cbbcbd",
+        "android_client_info": {
+          "package_name": "lou.Store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824545980680-gpigpo7bel3m54djls118096uhq83b3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyzWIZ4bn0yWRKegC8XQqehCGAhuQaUAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824545980680-gpigpo7bel3m54djls118096uhq83b3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

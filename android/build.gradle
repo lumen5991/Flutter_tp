@@ -1,0 +1,34 @@
+// Déclarations des dépôts Maven
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Configuration des répertoires de build
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+// Configuration des dépendances entre projets
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+// Configuration de la tâche de nettoyage
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+
+// Application des plugins
+plugins {
+    id 'com.android.application' version '7.3.0' apply false
+    id 'com.google.gms.google-services' version '4.4.0' apply false
+}
+
+// Application du plugin google-services à tous les sous-projets
+subprojects {
+    apply plugin: 'com.google.gms.google-services'
+}
