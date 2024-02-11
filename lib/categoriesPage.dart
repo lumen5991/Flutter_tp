@@ -1,7 +1,7 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, use_key_in_widget_constructors, file_names
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:flutter_appli_one/headerWidget.dart';
+import 'package:new_project/headerWidget.dart';
 
 class CategoriesPage extends StatefulWidget {
   const CategoriesPage({Key? key});
@@ -52,8 +52,41 @@ class _MyWidgetState extends State<CategoriesPage> {
                   ),
                   color: Colors.white,
                 ),
-               
+                child: Padding(
+                  padding: const EdgeInsets.all(15),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const [
+                          Text(
+                            "Categories",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 22,
+                            ),
+                          ),
+                          Icon(Icons.more_horiz),
+                        ],
+                      ),
+                      const SizedBox(height: 20),
+                      Wrap(
+                        spacing: 12,
+                        runSpacing: 12,
+                        children: [
+                          _buildCategoryItem("Relationship", const Color.fromARGB(255, 185, 73, 247)),
+                          _buildCategoryItem("Career", const Color.fromARGB(255, 0, 162, 228)),
+                          _buildCategoryItem("Education", const Color.fromARGB(255, 255, 125, 81)),
+                          _buildCategoryItem("Other", const Color.fromARGB(255, 255, 62, 121)),
+                        ],
+                      ),
+                    ],
+
+                  ),
+                ),
               ),
+
             ),
           ],
         ),
@@ -61,4 +94,24 @@ class _MyWidgetState extends State<CategoriesPage> {
     );
   }
 
+  Widget _buildCategoryItem(String categoryName, Color color) {
+    return SizedBox(
+      width: MediaQuery.of(context).size.width * 0.4, 
+      child: Card(
+        color: color,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(15),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 15),
+          child: Center(
+            child: Text(
+              categoryName,
+              style: TextStyle(color: Colors.white, fontSize: 18),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 }

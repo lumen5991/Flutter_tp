@@ -2,11 +2,18 @@
 
 A new Flutter project.
 
+<<<<<<< HEAD
 Lien du projet :
 
 https://dribbble.com/shots/15002657-Mental-Health-App/attachments/6724284?mode=media
 
 
+=======
+Lien de la maquette :
+
+https://dribbble.com/shots/15002657-Mental-Health-App/attachments/6724284?mode=media
+
+>>>>>>> 45819bc688f4ccae92ca55ba080f27ef42010498
 ## Getting Started
 
 This project is a starting point for a Flutter application.
