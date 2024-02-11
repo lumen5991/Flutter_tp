@@ -153,21 +153,21 @@
     },
     {
       "name": "leak_tracker",
-      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/leak_tracker-10.0.3",
+      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/leak_tracker-10.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.1"
     },
     {
       "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.2",
+      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.1"
     },
     {
       "name": "leak_tracker_testing",
-      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.0",
+      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.1"
     },
     {
       "name": "lints",
@@ -243,7 +243,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/test_api-0.7.0",
+      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/test_api-0.6.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -261,7 +261,7 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/vm_service-14.0.0",
+      "rootUri": "file:///home/lumen/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -278,7 +278,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-02-09T12:03:39.531174Z",
+  "generated": "2024-02-10T12:12:37.764036Z",
   "generator": "pub",
-  "generatorVersion": "3.4.0-116.0.dev"
+  "generatorVersion": "3.3.0-279.3.beta"
 }

@@ -26,6 +26,8 @@ tasks.register("clean", Delete) {
 plugins {
     id 'com.android.application' version '7.3.0' apply false
     id 'com.google.gms.google-services' version '4.4.0' apply false
+
+    
 }
 
 // Application du plugin google-services à tous les sous-projets
